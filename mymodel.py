@@ -38,10 +38,10 @@ def compute_scores(y_test, y_pred):
     mse = metrics.mean_squared_error(y_test, y_pred)
     rmse = math.sqrt(mse) 
     r2 = metrics.r2_score(y_test, y_pred)
-    print("MAE : ",mae)
-    print("MSE : ",mse)
-    print("RMSE : ",rmse)
-    print("R2 : ",r2)
+    # print("MAE : ",mae)
+    # print("MSE : ",mse)
+    # print("RMSE : ",rmse)
+    # print("R2 : ",r2)
 
 df = pd.read_csv("Data/crop.csv")
 
